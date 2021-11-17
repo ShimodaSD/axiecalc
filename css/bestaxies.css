@@ -1,0 +1,1181 @@
+html{
+margin:0 auto;
+background: url("/images/bestaxies/kentasi/Home/web_03.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+background-position:bottom;
+}
+body{
+background-color:transparent;
+font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat', sans-serif;
+line-height:125%;
+}
+
+#page{
+min-width:430px;
+max-width:1000px;
+margin:0 auto;
+background-color:#fff;
+}
+#page-content{
+margin-top: 0;
+max-width:1000px;
+}
+
+h1{
+font-size:30px;
+}
+h2{
+font-size:24px;
+}
+h3{
+font-size:20px;
+}
+
+/* Allow for bootstrap grid layout of 0.5s */
+.col-xs-4_5 {
+  float:left;
+  width: 37.5%;
+}
+.col-sm-4_5 {
+  float:left;
+  width: 37.5%;
+}
+.col-md-4_5 {
+  float:left;
+  width: 37.5%;
+}
+.col-lg-4_5 {
+  float:left;
+  width: 37.5%;
+}
+
+.col-xs-offset-0_5 {
+  margin-left: 4.1667%;
+}
+.col-sm-offset-0_5 {
+  margin-left: 4.1667%;
+}
+.col-md-offset-0_5 {
+  margin-left: 4.1667%;
+}
+.col-lg-offset-0_5 {
+  margin-left: 4.1667%;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+.navbar-collapse {
+  max-height: 100%;
+  border:0;
+}
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -60%;
+  
+    margin-right: 0px;
+    background-color: #f3f3f3;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%; 
+  }
+  .row-offcanvas-right.active {
+    right: 60%;  
+  }
+  .row-offcanvas-left.active {
+    left: 50%;  
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 60%;  
+    height: 100%;
+    display: none;
+  
+  }
+}
+
+/* Main Navbar */
+.nav{
+font-family: 'Montserrat', sans-serif;
+}
+div#main-nav .navbar{
+margin:0;
+border:0;
+min-height:30px;
+}
+.navbar{
+min-height:40px;
+}
+.navbar-wrapper{
+background: url("/images/bestaxies/kentasi/Home/web_02.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
+min-width:430px;
+}
+div#main-nav ul.nav{
+width:100%;
+}
+div#main-nav ul.nav>li{
+width:16.6%;
+text-align:center;
+}
+div#main-nav li.active a{
+color:gold;
+}
+div#main-nav li a, div#main-nav ul.sub-nav li a {
+display: block;
+width: 100%;
+margin: 20px 0;
+font-size: 12px;
+cursor: pointer;
+color: white;
+padding: 0;
+}
+div#main-nav ul li a:hover, div#main-nav ul li a:focus {
+color:gold;
+background: none;
+}
+
+/* Mob Navbar */
+div#mob-nav{
+width:100%;
+background-color:#fff;
+z-index:1000;
+}
+div#mobLogoContainer{
+float:left;
+padding-left:10px;
+margin-top:3px;
+}
+div#sideMenuButtonContainer{
+float:right;
+padding-right:10px;
+}
+div#sideMenuButtonContainer button{
+background-color:white;
+z-index:1000;
+}
+div#sideMenuButtonContainer button span{
+background-color:#6314ae;
+}
+div#sideMenuButtonContainer button:hover, div#sideMenuButtonContainer button:focus{
+background-color:gold;
+}
+div#sideMenuButtonContainer button:hover span, div#sideMenuButtonContainer button:focus span{
+background-color:#6314ae;
+}
+.navbar-toggle{
+margin-top:12px;
+}
+div#mob-nav .navbar{
+margin:0;
+border:0;
+}
+div#mob-nav .navbar-header{
+margin:0;
+min-width:310px;
+}
+div#mob-nav #sidebar{
+padding:0;
+z-index:2000;
+}
+div#mob-nav #sidebar .sidebar-nav{
+background-color:#6314ae;
+min-height:100vh;
+display:block;
+}
+div#mob-nav #sidebar .sidebar-nav #sidebar-title{
+font-size:18px;
+}
+div#mob-nav ul {
+padding:0;
+list-style:none;
+text-align:left;
+margin:0;
+}
+div#mob-nav #sidebar .sidebar-nav>ul>li>a {
+text-align:left;
+padding-left:20px;
+color:white;
+}
+div#mob-nav ul.sub-nav li a {
+padding-left:40px;
+}
+div#mob-nav #sidebar .sidebar-nav>ul>li>a:hover, .sidebar-nav>ul>li>a:focus{
+color: gold !important;
+background-color:#6314ae !important;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+background:#333;
+}
+div#mob-nav li a, div#mob-nav ul.sub-nav li a {
+padding-top:0;
+padding-bottom:0;
+display:block;
+width:100%;
+height:40px;
+line-height:40px;
+}
+div#mob-nav li.active a, .open .dropdown-toggle div#mob-nav ul li a{
+color:#428bca;
+}
+
+.container-no-pad{
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+}
+.container-no-pad:before, .container-no-pad:after{
+clear:both;
+content:" ";
+display:table;
+}
+div#navbar-container{
+max-width:1000px;
+min-width:430px;
+}
+div#social {
+margin-top:18px;
+}
+div#social a i{
+font-size:28px;
+color:white;
+float:right;
+padding-left:10px;
+padding-right:10px;
+}
+div#social a:hover i, div#social a:focus i{
+color:gold;
+}
+
+div#heroBanner {
+height: 156px;
+min-width:430px;
+background: url(/images/bestaxies/kentasi/Home/web_01.jpg) no-repeat center center / cover rgba(0, 0, 0, 0);
+background-position:bottom;
+margin: 0 auto;
+}
+
+div#logo {
+text-align: left;
+height:60px;
+padding-left:0;
+}
+div#logo span{
+font-size:24px;
+position:relative;
+top:5px;
+}
+div#logo a:hover{
+text-decoration:none;
+}
+img.logo {
+height:36px;
+margin-top:12px;
+}
+
+/* Custom CSS */
+.section {
+margin:0 auto;
+padding-top:20px;
+max-width: 900px;
+text-align:center;
+clear: both;
+}
+div#homeHero{
+background: url("/images/bestaxies/kentasi/Home/banner_web_2.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
+height:280px;
+}
+div#scholarHero{
+background: url("/images/bestaxies/kentasi/Leaderboard/banner.jpg") no-repeat bottom center / cover  rgba(0, 0, 0, 0);
+height:200px;
+color:white;
+text-shadow: -1px -1px 0 #6314ae, 1px -1px 0 #6314ae, -1px 1px 0 #6314ae, 1px 1px 0 #6314ae;
+}
+div#scholarHero h1{
+margin:30px 0 0 0;
+text-align:center;
+font-size:34px;
+font-weight:900;
+}
+
+div#scholarHero h2{
+margin:20px 0 0 0;
+text-align:center;
+font-weight:900;
+}
+
+.toolTitle {
+font-size:24px;
+}
+h4 {
+color:#6314ae;
+font-size:20px;
+margin:20px auto;
+}
+.bryceText{
+font-size:12px;
+}
+.bryceText a{
+color:#6314ae;
+font-size:14px;
+font-weight: bold;
+}
+.bryceBG{
+height:80px;
+border-radius:20px;
+}
+.bryceLinks{
+padding:10px;
+}
+.bryceLinks a{
+margin:0 4px;
+text-decoration:none !important;
+}
+.bryceLinks a i{
+font-size:24px;
+color: #428bca; 
+}
+.bryceLinks a i.red-icon{
+color: red;
+}
+.bryceLinks a i.gold-icon{
+color: gold;
+}
+.bryceLinks a img{
+height: 24px;
+margin-top: -9px;
+}
+
+.table th {
+text-align:center;
+}
+
+.disclaimer {
+color: #428bca;
+}
+
+div.quickLink {
+padding-bottom:40px;
+font-size:20px;
+font-family: 'Montserrat', sans-serif;
+height:250px;
+}
+div.toolIcon{
+float:left;
+width:35%;
+}
+div.toolIcon img{
+height:100px;
+margin:12px 0;
+}
+div.toolIcon button{
+background-color:#6314ae;
+border-color:#6314ae;
+}
+div.toolIcon button:hover, div.toolIcon button:active, div.toolIcon button:focus{
+background-color:gold;
+border-color:#6314ae;
+}
+div.toolDesc{
+float:left;
+width:65%;
+}
+div.toolDesc a{
+color:#6314ae;
+font-weight:bold;
+}
+div.quickLink p{
+font-size:14px;
+padding:6px;
+}
+
+.footerCover {
+clear:both;
+background: url("/images/bestaxies/kentasi/Home/footer.png") no-repeat center center / cover  #6314ae;
+display: block;
+min-height: 112px;
+margin-top:20px;
+margin-bottom:50px;
+}
+.footer {
+padding:20px 10px 30px;
+color:white;
+text-align:center;
+margin-bottom:100px;
+}
+
+img#bestAxies {
+border-radius:50%;
+height:28px;
+}
+
+input#axieId, input#ethAddr{
+height: 34px;
+padding-left:2px;
+}
+button#calcButton, button#searchButton {
+background-color: #6314ae;
+color: white;
+margin-top: -2px;
+margin-left: -4px;
+border-radius: 0px 6px 6px 0px;
+}
+
+div#errorMessage {
+display:none;
+color: red;
+text-align:center;
+}
+
+div#notFoundMessage {
+display:none;
+color: red;
+text-align:center;
+}
+
+div#notMorphedMessage {
+display:none;
+color: red;
+text-align:center;
+}
+
+div#spinner {
+display:none;
+font-size:28px;
+position:absolute;
+left:50%;
+}
+
+div#axie {
+display:none;
+margin:20px auto;
+text-align:center;
+width: 420px;
+min-height:100px;
+background-color: hsl(0, 0%, 1%) !important;
+background-repeat: repeat-x;
+color:white;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#444", endColorstr="#222");
+background-image: -khtml-gradient(linear, left top, left bottom, from(#444), to(#222));
+background-image: -moz-linear-gradient(top, #444, #222);
+background-image: -ms-linear-gradient(top, #444, #222);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444), color-stop(100%, #222));
+background-image: -webkit-linear-gradient(top, #444, #222);
+background-image: -o-linear-gradient(top, #444, #222);
+background-image: linear-gradient(#444, #222);
+border-radius:10px;
+}
+div#axie div#preview {
+float:left;
+max-width: 170px;
+margin-top: 12px;
+}
+div#axie a#name {
+font-size: 18px;
+display:block;
+max-width: 250px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+color:white;
+}
+#axie div#breedCountLabel{
+font-size:12px;
+}
+div#axie a#name:hover, div#axie a#name:focus{
+color:#428bca;
+text-decoration:none;
+}
+div#axie img#image {
+height: 115px;
+margin-top:20px;
+}
+div#axie img#class {
+height: 35px;
+margin-bottom: 20px;
+margin-top:8px;
+}
+div#axie div#originLabel, div#axie div#mysticLabel {
+display: none;
+width: 50%;
+float:left;
+font-size:14px;
+}
+div#axie div#parts {
+float:left;
+min-width:110px;
+font-size:11px;
+}
+div#axie div#parts table{
+max-width:245px;
+text-align:left;
+}
+div#axie div#parts table td{
+padding: 2px 2px;
+}
+.beast{
+color:#ffb812;
+}
+.bird{
+color:#ff8bbd;
+}
+.aquatic{
+color:#00b8ce;
+}
+.bug{
+color:#ff5341;
+}
+.reptile{
+color:#b779e7;
+}
+.plant{
+color:#6cc000;
+}
+div#axie div#parts table td span.mystic{
+color:magenta;
+font-weight:bold;
+}
+div#axie img.partImg {
+height: 20px;
+}
+div#axie div#stats{
+clear: both;
+margin: 0 auto;
+text-align: center;
+display: table;
+}
+div#axie div#stats table{
+  margin-top:20px;
+}
+div#axie div#stats table th{
+padding:1px 20px;
+font-weight:normal;
+text-align:center;
+}
+div#axie div#stats table td{
+padding:1px 20px;
+font-size:20px;
+text-align:center;
+}
+div#axie div#stats i.health {
+color:#3ac279;
+}
+div#axie div#stats i.speed {
+color:#f7ac0a;
+}
+div#axie div#stats i.skill {
+color:#6a3ac2;
+}
+div#axie div#stats i.morale {
+color:#c23a3a;
+}
+
+div#infoPanel{
+display:none;
+}
+
+div#axieStatsPanel{
+display:none;
+text-align:center;
+margin: 10px auto;
+padding: 0 10px;
+}
+div#rarityLabel{
+border-radius:10px;
+background:#c23a3a;
+padding:4px;
+margin: 15px auto 10px;
+font-size:20px;
+font-weight:bold;
+color:white;
+max-width:300px;
+}
+p#totalSimilar{
+font-size:32px;
+}
+p#totalSimilar a{
+color:black;
+}
+p#totalSimilar a:hover, a:focus{
+text-decoration:none;
+color:#428bca;
+}
+div#lastSold{
+margin-top:25px;
+font-size:16px;
+}
+p#lastSoldPrice{
+font-size:20px;
+font-weight:bold;
+margin-top:4px;
+margin-bottom:0;
+}
+p#lastSoldDate{
+font-size:12px;
+}
+div#badgesTitle{
+font-size:16px;
+margin-top:14px;
+margin-bottom:6px;
+}
+div#badges{
+font-size:28px;
+}
+div#badges div{
+display:none;
+}
+div#badges span.badgeLabel{
+font-size:10px;
+}
+
+div#similarAxiesMessage {
+display:none;
+margin: 0 auto;
+padding: 0 10px;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+div#similarAxiesMessage a#cardSearchMarketplace{
+color:#428bca;
+}
+div#similarAxiesMessage a#cardSearchMarketplace:hover, div#similarAxiesMessage a#cardSearchMarketplace:focus {
+color:#333;
+text-decoration:none;
+}
+
+div#noSimilarAxiesMessage {
+display:none;
+margin: 0 auto;
+padding: 0 10px;
+color:orange;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+
+div#originMysticMessage {
+display:none;
+margin: 0 auto;
+padding: 0 10px;
+font-weight:bold;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+
+div#uniqueAxieMessage {
+display:none;
+margin: 10px auto;
+padding: 10px;
+font-weight:bold;
+font-size:20px;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+
+div#similarSalePriceMessage {
+display:none;
+margin: 0 auto;
+padding: 0 10px;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+div#similarSalePriceMessage span {
+font-weight:bold;
+}
+div#cheapestListedAxies{
+margin-top:30px;
+}
+div.listedAxie {
+display: inline-block;
+margin:5px auto;
+}
+div.listedAxie div.listedId{
+font-size:12px;
+}
+div.listedAxie div.listedBreedCount{
+font-size:10px;
+}
+div.listedAxie div.listedPrice{
+font-size:16px;
+}
+div.listedAxie img {
+height: 80px;
+}
+div.listedAxie img.partImg {
+height: 18px;
+}
+
+div#similarSoldAxies{
+margin-top:30px;
+}
+div.listedAxie div.soldPrice {
+font-size:16px;
+}
+div.listedAxie div.soldDate {
+font-size:10px;
+}
+
+div#noPreviousSalesMessage {
+display:none;
+color: orange;
+margin: 0 auto;
+padding: 0 10px;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+
+div#calculatingSpinner{
+font-size:20px;
+display:none;
+}
+div#cannotPriceMessage{
+display:none;
+font-size:18px;
+margin: 0 auto;
+padding: 0 10px;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+div#guidance {
+display:none;
+clear: both;
+margin-top:20px;
+text-align:center;
+}
+div#guidance table {
+margin: auto;
+text-align: left;
+}
+div#guidance table td{
+padding: 4px;
+font-size:16px;
+}
+div#guidance table span{
+font-weight:bold;
+}
+
+/* Leaderboard page */
+input#ethAddr{
+width:324px;
+}
+
+/* Player Profile Page */
+table#mostUsedTeams{
+display:none;
+}
+div.teamAxie {
+display: inline-block;
+margin:0 auto;
+}
+div.teamAxie img {
+height: 80px;
+}
+div.teamAxie table {
+height: 80px;
+}
+div.teamAxie table{
+max-width:170px;
+text-align:left;
+}
+div.teamAxie table td{
+padding: 1px 2px;
+font-size:12px;
+}
+div.teamAxie img.partImg {
+height: 18px;
+}
+div.battleCount {
+font-size: 18px;
+padding-top: 40px;
+}
+div.watchReplay {
+margin-top: 20px;
+}
+div#battlesNotFound {
+display:none;
+margin: 0 auto;
+padding: 0 10px;
+color:red;
+clear:both;
+max-width:600px;
+text-align:center;
+margin-top:10px;
+}
+
+/* Scholarships Page */
+div.scholarProfile{
+padding-bottom:8px;
+font-size:14px;
+background: url("/images/bestaxies/kentasi/Leaderboard/frame.png") no-repeat center center rgba(0, 0, 0, 0);
+margin:20px auto;
+width:304px;
+height:448px;
+}
+div.scholarProfile h3{
+font-size:26px;
+font-family: 'Montserrat', sans-serif;
+padding-top:10px;
+}
+div.scholarProfile img{
+height:200px;
+border:1px solid #ccc;
+margin-top:0;
+}
+div.scholarProfile table{
+margin: -10px 0 46px;
+text-align: left;
+width: 300px;
+}
+
+div.scholarProfile table tr td:first-child{
+font-weight:bold;
+text-align:right;
+padding-right:10px;
+width:30%
+}
+div.scholarProfile table img{
+height:130px;
+border: none;
+margin-top: -36px;
+margin-left: 10px;
+}
+div.scholarProfile button{
+background-color:white;
+color:#6314ae;
+}
+
+p.achievements{
+text-align: left;
+width: 300px;
+margin: 0 auto 20px;
+}
+
+h4.previewMode{
+font-size:14px;
+}
+input#configPicker{
+margin: 25px auto;
+width: 215px;
+}
+button#loadButton, button#dashboardButton{
+background-color: #6314ae;
+color: white;
+margin-top: -2px;
+margin-left: -4px;
+margin-right:4px;
+}
+button#dashboardButton{
+display:none;
+}
+p.loadingText{
+font-size:16px;
+}
+div#tooManyAddr{
+color:red;
+font-size:12px;
+display:none;
+margin-top:10px;
+}
+img#slp{
+height:40px;
+}
+div.axieProfile {
+display:inline-block;
+margin:10px auto;
+font-size:11px;
+min-width:130px;
+}
+div.axieProfile div.axieId{
+font-size:12px;
+}
+div.axieProfile div.breedCount{
+font-size:10px;
+}
+div.breedCountUnderThree{
+background-color:lightblue;
+}
+div.breedCountUnderTwo{
+background-color:#00b8ce;
+}
+div.axieProfile img {
+height: 80px;
+margin-top: -10px;
+}
+div.axieProfile img.partImg {
+height: 14px;
+margin:0 4px;
+}
+div.axieProfile table {
+margin:0 auto;
+}
+table#scholarTable th{
+cursor:pointer;
+}
+img.guildLogo {
+height:130px;
+}
+div#axieLifeBG {
+background: url("/images/bestaxies/kentasi/axie-life.jpg") no-repeat top center / cover  rgba(0, 0, 0, 0);
+height:900px;
+position:relative;
+}
+div#axieLifeBGMed {
+background: url("/images/bestaxies/kentasi/axie-life.jpg") no-repeat top center / cover  rgba(0, 0, 0, 0);
+height:875px;
+position:relative;
+}
+div#axieLifeBGSmall {
+background: url("/images/bestaxies/kentasi/axie-life.jpg") no-repeat top center / cover  rgba(0, 0, 0, 0);
+height:500px;
+position:relative;
+}
+
+div#topBanner{
+width:100%;
+background-color:gold;
+border-bottom:1px solid darkmagenta;
+text-align:center;
+}
+div.highlight{
+width: 175px;
+height:100px;
+margin: 10px auto;
+text-align:center;
+background-color: hsl(0, 0%, 1%) !important;
+background-repeat: repeat-x;
+color:white;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#444", endColorstr="#222");
+background-image: -khtml-gradient(linear, left top, left bottom, from(#444), to(#222));
+background-image: -moz-linear-gradient(top, #444, #222);
+background-image: -ms-linear-gradient(top, #444, #222);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444), color-stop(100%, #222));
+background-image: -webkit-linear-gradient(top, #444, #222);
+background-image: -o-linear-gradient(top, #444, #222);
+background-image: linear-gradient(#444, #222);
+border-radius:10px;
+}
+div.highlight div.title{
+font-size: 13px;
+padding-top: 8px;
+padding-bottom:10px;
+}
+div.highlight div.value{
+font-size: 20px;
+}
+div.highlight div.value .nameList{
+font-size: 14px;
+}
+div#accountsList, div#newScholarPanel{
+  overflow-x:scroll;
+}
+table tr.claimReadyRow td{ 
+background-color: greenyellow !important;
+font-weight: bold;
+}
+table tr.top3ArenaRow td{
+background-color:lightyellow !important;
+font-weight: bold;
+}
+table#newScholarAccount {
+max-width: 600px;
+margin: 5px auto;
+text-align:center;
+width: 420px;
+background-color: hsl(0, 0%, 1%) !important;
+background-repeat: repeat-x;
+color:white;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#444", endColorstr="#222");
+background-image: -khtml-gradient(linear, left top, left bottom, from(#444), to(#222));
+background-image: -moz-linear-gradient(top, #444, #222);
+background-image: -ms-linear-gradient(top, #444, #222);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444), color-stop(100%, #222));
+background-image: -webkit-linear-gradient(top, #444, #222);
+background-image: -o-linear-gradient(top, #444, #222);
+background-image: linear-gradient(#444, #222);
+border-radius:10px;
+}
+table#newScholarAccount input#name{
+width:110px;
+color:black;
+}
+table#newScholarAccount th{
+font-size:12px;
+height:34px;
+}
+table#newScholarAccount input#roninAddress{
+width:200px;
+color:black;
+}
+table#newScholarAccount input#managerCut{
+width:70px;
+color:black;
+}
+table#newScholarAccount button{
+font-size:14px;
+}
+
+table#scholarList th, table#arenaTable th {
+cursor:pointer;
+}
+table#scholarList th:hover {
+color:#6314ae;
+}
+button.deleteButton:hover {
+color:red;
+}
+
+div#managerNavButtons button {
+width:30%;
+background-color:#6314ae;
+border-color:darkviolet;
+}
+
+div#axiesList, div#arenaList{
+display:none;
+}
+
+div.scholarAxies{
+display: table;
+margin:0 auto;
+}
+div.scholarAxies div{
+display:table-cell;
+}
+div.scholarAxies div:first-child{
+padding-right:10px;
+}
+div#axiesList img{
+height:80px;
+}
+div#axiesList img.partImg {
+height: 20px;
+}
+
+button#importButton, button#exportButton, button#syncButton{
+background-color:#6314ae;
+border-color:darkviolet;
+}
+
+div#tooManyAccountsMessage{
+  margin-top:10px;
+  display:none;
+  color:red;
+  font-size:16px;
+}
+span.dollars{
+color:greenyellow;
+font-size:16px;
+}
+
+div#slpMvpContainer{
+background: url(/images/bestaxies/SLP.webp) no-repeat center center;
+background-size: 180px;
+height: 180px;
+}
+span#slpMvpValue{
+display: block;
+font-size: 42px;
+width: 118px;
+margin: 0 auto;
+font-weight: bold;
+color: black;
+top: 95px;
+position: relative;
+padding: 4px 0;
+-webkit-text-stroke: 0.5px gold;
+}
+div#arenaMvpContainer{
+background: url(/images/bestaxies/trophy-cartoon.jpeg) no-repeat center center / contain;
+background-size: 165px;
+height: 180px;
+}
+span#arenaMvpValue{
+display: block;
+font-size: 40px;
+width: 118px;
+margin: 0 auto;
+font-weight: bold;
+color: black;
+top: 15px;
+position: relative;
+padding: 4px 0;
+-webkit-text-stroke: 0.5px gold;
+}
+div#guildRatingContainer{
+background: url(/images/bestaxies/shield.png) no-repeat center center;
+background-size: 180px;
+height: 180px;
+}
+span#guildRating{
+display: block;
+font-size: 90px;
+width: 118px;
+margin: 0 auto;
+font-weight: bold;
+color: black;
+top: 13px;
+position: relative;
+padding: 4px 0;
+}
+div#averageDailySLP{
+padding-top:8px;
+}
+
+div.mvpTitle{
+font-size: 20px;
+padding-top: 8px;
+padding-bottom:10px;
+}
+div#slpMvp, div#arenaMvpName{
+font-size: 30px;
+padding-top: 8px;
+padding-bottom:10px;
+animation: color-change 2s infinite;
+}
+@keyframes color-change {
+  0% { color: yellowgreen; }
+  50% { color: green; }
+  100% { color: yellowgreen; }
+}
+@keyframes s-tier {
+  0% { color: black; }
+  50% { color: gold; }
+  100% { color: black; }
+}
+span.mvpDetail{
+font-size:13px;
+}
+h4#managerName{
+font-size:30px;
+margin-bottom:4px;
+}
+div#guildPageUrl{
+margin:0 auto 8px;
+font-size: 16px;
+}
+button#syncButton{
+margin-bottom:10px;
+}
